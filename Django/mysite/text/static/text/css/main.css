@@ -1,0 +1,13 @@
+body{
+    background: #4682B4;
+}
+
+aside{
+    float: left;
+    background: #B0C4DE;
+    width: 1.5%;
+    padding: 2.5%;
+    height: 100vh;
+    color: fff;
+    border-right: 5px solid #FAEBD7;
+}
