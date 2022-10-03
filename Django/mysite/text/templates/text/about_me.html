@@ -2,28 +2,98 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Обо мне</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{% static 'text/css/main.css' %}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'text/css/style.css' %}">
+
 </head>
 <body>
-    <aside>
-        <p></p>
-    </aside>
-    <main>
-        <h1>Обо мне</h1>
-        <img src=" {% static 'text/img/pic.png' %}" alt="Фотография">
-        <p>Меня зовут Гадзацев Георгий. Я живу в городе Москва, увлекаюсь программированием, игрой в настольную версию Warhammer 40000 и спортом.<br/>
+<div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <h1>Обо мне</h1>
+            <p> <font size="6" face="Calibri"> Меня зовут Гадзацев Георгий. Я живу в городе Москва, увлекаюсь программированием, игрой в настольную версию Warhammer 40000 и спортом.<br/>
             Также имею первый взрослый разряд по шахматам.
         Занимался созданием игр на Unreal Engine, проходил двухлетний курс по ООП программированию на С++.<br/>
-        В школе изучаю алгоритмы на Python.</p>
+        В школе изучаю алгоритмы на Python.</font> </p>
+        </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <img src="{% static 'text/img/pic.png' %}" width="900" height="600">
+        </div>
+        </div>
+    </div>
 
-    </main>
+    <div class="container2">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <h1>Шахматы</h1>
+            <p> <font size="6" face="Calibri"> Шахматами я занимаюсь уже более 8 лет! <br>
+            Однако последние годы отодвинул шахматы и сейчас редко получается играть из-за учёбы.
+            Всё равно, если есть свободная минутка - играю блиц на онлайн сервисах)</font> </p>
+        </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <img src="{% static 'text/img/img_1.jpg' %}">
+        </div>
+        </div>
+    </div>
+<br>
+    <div class="container3">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <h1>Курсы по изучению плюсов</h1>
+            <p> <font size="6" face="Calibri"> В седьмом классе мой друг пригласил меня на курсы по ООП <br>
+                на языке С++, который он сам к тому моменту проходил. <br>
+                Так я попал на курс ООП на языке С++ от МШП(Московская Школа Пограммистов)
+                <br>
+                Курс был особенно сложным для меня, ведь это был мой первый язык, однако я старался и окончил его на твёрдую 4 :)
+                </font> </p>
+        </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <img src="{% static 'text/img/img_3.jpg' %}">
+        </div>
+        </div>
+    </div>
+<br>
+    <div class="container3">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <h1>Game-dev Unreal Engine</h1>
+            <p> <font size="6" face="Calibri">  В 9 классе я собрал себе первый мощный компьютер и, решив этим воспользоваться, записался на курс по Геймдефу на Unreal Engine 4
+        <br>
+        от всё тех же МШП. По факту это был летний лагерь в онлайн форме(у нас даже были линейки).В течение двух месяцев лета я работал и в конце получил игру, типа Subway Serfers (мобильного раннера).
+        <br>
+        Опыт получился познавательный и интересный. Не жалею, что прошёл данный курс)
+                </font> </p>
+        </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <img src="{% static 'text/img/img_4.jpg' %}">
+        </div>
+        </div>
+    </div>
+
+    <div class="container3">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <h1>Warhammer 40000</h1>
+            <p> <font size="6" face="Calibri"> Я начал увлекаться данной настольной игрой, так как в моей школу был
+                вечерний кружок, на котором ребята со всей школы играли в такие игры, как: Dungeons & Dragons, Warhummer 40000 и другие.
+
+                В итоге я выбрал Ксеносов и собрал сравнительно большой отряд Империи Тау. <br>
+                Мы часто устраивали командные бои на большой постапокалипсичной карте, сделанной нами из пеноплекса и других материалов.
+
+            </font> </p>
+        </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <img src="{% static 'text/img/img_5.jpg' %}">
+        </div>
+        </div>
+    </div>
+
 
 </body>
 </html>
